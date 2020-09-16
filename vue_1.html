@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>VueJS-Prve vjezbe</title>
+    </head>
+    <body>
+        <div id="prva_aplikacija">
+            <input type="text" v-model="fakultet"><br></br>
+            {{fakultet}}
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        
+        <script>
+            new Vue({
+                el:"#prva_aplikacija",
+                data:{
+                    fakultet:"FPMOZ"
+                } 
+            });
+        </script>
+    </body>
+</html>
